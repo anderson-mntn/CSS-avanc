@@ -14,6 +14,11 @@ header + p {} - aplica apenas no primeiro elemento p.
 header > p {} - aplica apenas no filho, no "netos" não.
 header ~ p {} - aplice em todos p que antecedam header
 
+Atributo como seletor (dentros da tag title="string") - aplica em tags [width=500] todos elementos com width igual a 500, 
+[title~="titulo"] aplica em todas as palavras "titulo", 
+[title$="1"] aplica em todos que terminam com "1"
+[title^="t"] - todos titulos que começam com "t"
+[title*="tu"] - aplica em tudo que tiver "tu" na tag
  -->
 <body>
 
