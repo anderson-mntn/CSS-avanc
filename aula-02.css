@@ -1,0 +1,27 @@
+*{
+    font-size: 1.5vw;
+}
+input:focus{
+    color: red;
+}
+/* pega o primeiro do tipo */
+li:first-of-type{
+    color: blue;
+}
+/* pega o que eu passar */
+li:nth-of-type(2){
+    color: orange;
+}
+/* (2n) divisible by 2, or -> even
+li:nth-of-type(even){
+    color: orange;
+} */
+li:nth-last-child(2){
+    color: grey;
+}
+li:last-child{
+    color: rgb(221, 129, 221);
+}
+li:nth-of-type(3n -2){
+    background-color: rgb(176, 230, 179);
+}
