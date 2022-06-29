@@ -40,6 +40,5 @@ li:nth-of-type(3n -2){
 }
 
 #loadingIcon{
-    display: flex;
     width: 50px;
 }
