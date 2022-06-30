@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01</title><link rel="stylesheet" href="aula-01.css">
+</head>
+
+<!-- 
+***Wilt***
+Aula 1 pseudo elementos: ::before 'background: url(.img)' no-repeat, ::after
+Aula 2 Seletores CSS:
+header + p {} - aplica apenas no primeiro elemento p.
+header > p {} - aplica apenas no filho, no "netos" não.
+header ~ p {} - aplice em todos p que antecedam header
+
+Atributo como seletor (dentros da tag title="string") - aplica em tags [width=500] todos elementos com width igual a 500, 
+[title~="titulo"] aplica em todas as palavras "titulo", 
+[title$="1"] aplica em todos que terminam com "1"
+[title^="t"] - todos titulos que começam com "t"
+[title*="tu"] - aplica em tudo que tiver "tu" na tag
+ -->
+<body>
+
+<h1>Titulo do site</h1>
+<p> Random word, Random word, Random word, Random word, Random word, 
+ Random word, Random word, Random word, Random word, Random word, 
+ Random word, Random word, Random word, Random word, Random word, 
+</p>
+
+<ul>
+ <li>Item</li>
+ <li>Item</li>
+ <li>Item</li>
+ <li>Item</li>
+</ul>
+<div>
+    <h2 title="titulo 1" width=300></h2>
+    <h3 title="titulo 2"></h3>
+    <h4 width=500></h4>
+    <h5 title="texto 1"></h5>
+</div>
+<script>
+    let titulos = document.querySelectorAll('[title]')
+    console.log(titulos); //printará o 1st que atende ao critério
+    // se quiser printar todos, add All;
+    // let titulos = document.querySelectorAll('[title]')
+</script>
+</body>
+</html>
