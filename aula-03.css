@@ -1,0 +1,33 @@
+
+.container{
+    width: 100%;
+    background-color: grey;
+    height: 700px;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+/* 
+- Display block tenta ocupar width do pai
+- Display Flex: 
+- flex-direction: row;(por padrão)
+tenta ocupar toda heith.
+
+ */
+.rect{
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+.r1{
+    background-color: orange;
+}
+.r2{
+    background-color: aqua;
+}
+.r3{
+    background-color: green;
+}
+.r4{
+    background-color: red;
+}
