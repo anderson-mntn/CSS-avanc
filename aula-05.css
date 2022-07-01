@@ -1,0 +1,25 @@
+.container{
+    height: 400px;
+    width: auto;
+    background-color: grey;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.rect{
+    width: auto;
+    height: auto;
+    color: white;
+    margin: 10px;
+}
+.rect-blue{
+    background-color: blue;
+    word-wrap: break-word; 
+}
+.rect-red{
+    background-color: red;
+}
+.rect-green{
+    background-color: green;
+}
