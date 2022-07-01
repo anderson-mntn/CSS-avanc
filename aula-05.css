@@ -3,11 +3,14 @@
     width: auto;
     background-color: grey;
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    /* grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    SHORTHAND BELOW */
+    grid-template: auto auto / 1fr 1fr 1fr ;
+    /* gap: 10px; */
 }
 .rect{
+
     width: auto;
     height: auto;
     color: white;
