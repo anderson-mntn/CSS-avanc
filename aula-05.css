@@ -6,7 +6,7 @@
     /* grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     SHORTHAND BELOW */
-    grid-template: auto auto / 1fr 1fr 1fr ;
+    grid-template: 50px auto auto / 1fr 1fr 1fr ;
     /* gap: 10px; */
 }
 .rect{
